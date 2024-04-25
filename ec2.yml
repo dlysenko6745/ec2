@@ -6,7 +6,7 @@
   - name: Spot Request Creation with more options
     amazon.aws.ec2_spot_instance:
       launch_specification:
-        image_id: 09b90e09742640522 
+        image_id: ami-0900fe555666598a2
         key_name: Diana
         security_group_ids: sg-028542e4a43b87201 
         instance_type: t2.micro
