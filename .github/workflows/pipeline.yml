@@ -6,7 +6,7 @@ on:
       - main  # Adjust the branch name as needed
 
 jobs:
-  ec2-ansible:
+  ec2:
     runs-on: ubuntu-latest  # You can choose a different operating system if needed
 
     steps:
