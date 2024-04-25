@@ -23,12 +23,12 @@ jobs:
       with:
         depth: 1
         branch: 'main'
-        owner: 'techtorialdevops'
-        repository: 'ec2-ansible'
+        owner: 'dlysenko6745'
+        repository: 'ec2'
 
     - name: Access cloned repo
       run: |
-         cd ec2-ansible
+         cd ec2
          ls -la
     
     - name: Configure AWS credentials
