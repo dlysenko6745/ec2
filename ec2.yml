@@ -7,7 +7,7 @@
     amazon.aws.ec2_spot_instance:
       launch_specification:
         image_id: ami-0900fe555666598a2
-        key_name: Diana
+        key_name: diana
         security_group_ids: sg-028542e4a43b87201 
         instance_type: t2.micro
         block_device_mappings:
